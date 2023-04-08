@@ -10,7 +10,7 @@ async def hello(message: types.Message):
     await message.reply(text="hello")
 
 @dp.message_handler(commands="help")
-async def hello(message: types.Message):
+async def help(message: types.Message):
     await message.reply(text="I will help you")
 
 
